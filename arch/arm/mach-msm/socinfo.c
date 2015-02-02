@@ -33,6 +33,9 @@
 
 #include "boot_stats.h"
 
+// HACK alert - this should eventually be set via Kconfig
+#define CONFIG_MACH_OPPO
+
 #ifdef CONFIG_MACH_OPPO
 #include <linux/pcb_version.h>
 #endif
